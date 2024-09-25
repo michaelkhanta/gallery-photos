@@ -37,7 +37,7 @@ $userid = isset($_SESSION['userid']) ? $_SESSION['userid'] : null;
         }
 
         .content {
-            flex: 1; /* Make the content take the available space */
+            flex: 1; 
         }
 
         footer {
