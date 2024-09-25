@@ -35,7 +35,7 @@ if (isset($_POST['edit'])) {
 if (isset($_POST['hapus'])) {
 	$album_id = $_POST['albumid'];
 
-	$sql = mysqli_query($koneksi, "DELETE FROM album WHERE album_id='$album_id'");
+	$sql = mysqli_query($koneksi, "DELETE FROM album WHERE $album_id='$album_id'");
 
 	echo "<script>
 	alert('Data Berhasil Dihapus!');
