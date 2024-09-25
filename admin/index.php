@@ -81,7 +81,7 @@ if ($_SESSION['status'] != 'login') {
                     <div class="modal-content">
                         <div class="modal-body">
                             <div class="row">
-                                <div class="col-md-8">
+                                <div class="col-md-5">
                                     <img src="../assets/img/<?php echo $data['lokasifile']; ?>"
                                     class="card-img-top"
                                     title="<?php echo $data['judulfoto']; ?>">
@@ -138,7 +138,7 @@ if ($_SESSION['status'] != 'login') {
 </div>
 
 <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
-    <p>&copy;UKK RPL 2024 | Michael Khanta Dwiyata </p>
+    <p>&copy; UKK RPL 2024 | Michael Khanta Dwiyata</p>
 </footer>
 
 <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
