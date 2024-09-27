@@ -132,7 +132,7 @@ $userid = isset($_SESSION['userid']) ? $_SESSION['userid'] : null;
                                                     </p>
                                                     <hr>
                                                     <?php
-                                                    $fotoid = $data['fotoid'];
+                                                    $fotoid = $data['fotoid']
                                                     $komentar = mysqli_query($koneksi, "SELECT * FROM komentarfoto INNER JOIN user ON komentarfoto.userid=user.userid WHERE komentarfoto.fotoid='$fotoid'");
                                                     while ($row = mysqli_fetch_array($komentar)) {
                                                         ?>
